@@ -33,3 +33,14 @@ Sigue estos pasos para ejecutar el Ejercicio 2:
 3. La aplicación creará automáticamente una tabla para la entidad "Persona" en la base de datos y guardará detalles extendidos, incluyendo "Domicilio", junto con nombre, apellido y edad.
 
 4. Después de almacenar los datos, la aplicación recuperará la información y la presentará en la consola. Podrás observar cómo se gestiona el nuevo campo de "Domicilio".
+
+## Ejercicio 3: Trabajo Avanzado con Datos Adicionales
+
+### Descripción
+El tercer ejercicio amplía las entidades y relaciones de la base de datos, incluyendo Cliente, ConfiguracionGeneral, DetallePedido, Factura, y más.
+
+### Ejecución
+1. Configura una base de datos compatible con Spring Boot en el archivo `application.properties`.
+2. Ejecuta la clase `Ejer03Application.java` en el paquete `com.example.ejer03`. Esto creará tablas para todas las entidades mencionadas y guardará datos de ejemplo.
+
+Estos ejercicios demuestran cómo trabajar con bases de datos más complejas y gestionar relaciones entre múltiples entidades. Explora el código fuente para comprender mejor las relaciones y las operaciones de persistencia.
